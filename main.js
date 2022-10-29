@@ -34,28 +34,31 @@ function winner() {
   }
 
 
-  else if (squares[1] == squares[2] && squares[2] != squares[3] && squares[3] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  else if (squares[1] == squares[2] && squares[2] != squares[3] && squares[3] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
-  } else if (squares[4] == squares[5] && squares[5] != squares[6] && squares[6] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  } else if (squares[4] == squares[5] && squares[5] != squares[6] && squares[6] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
-  } else if (squares[7] == squares[8] && squares[8] != squares[9] && squares[9] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  } else if (squares[7] == squares[8] && squares[8] != squares[9] && squares[9] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
-  } else if (squares[1] == squares[4] && squares[4] != squares[7] && squares[7] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  } else if (squares[1] == squares[4] && squares[4] != squares[7] && squares[7] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
-  } else if (squares[2] == squares[5] && squares[5] != squares[8] && squares[8] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  } else if (squares[2] == squares[5] && squares[5] != squares[8] && squares[8] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
-  } else if (squares[3] == squares[6] && squares[6] != squares[9] && squares[9] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  } else if (squares[3] == squares[6] && squares[6] != squares[9] && squares[9] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
-  } else if (squares[1] == squares[5] && squares[5] != squares[9] && squares[9] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  } else if (squares[1] == squares[5] && squares[5] != squares[9] && squares[9] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
-  } else if (squares[3] == squares[5] && squares[5] != squares[7] && squares[7] != '' && squares[1, 2, 3, 4, 5, 6, 7, 8, 9] != '') {
+  } else if (squares[9] == squares[5] && squares[5] != squares[1] && squares[1] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
+    setInterval(function () { title.innerHTML += '.' }, 500)
+    setTimeout(function () { location.reload() }, 2000)
+  } else if (squares[3] == squares[5] && squares[5] != squares[7] && squares[7] != '' && squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != '' && squares[7] != '' && squares[8] != '' && squares[9] != '') {
     setInterval(function () { title.innerHTML += '.' }, 500)
     setTimeout(function () { location.reload() }, 2000)
   }
