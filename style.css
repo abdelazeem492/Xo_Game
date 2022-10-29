@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(71, 71, 71);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game {
+  width: 80%;
+  height: 80vh;
+  /* background-color: ; */
+  margin: 43px auto;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(102, 102, 102);
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+span {
+  color: rgb(236, 64, 38);
+  font-weight: bold;
+}
+
+.squares {
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 30px) / 3));
+  grid-template-rows: repeat(3, calc((100% - 30px) / 3));
+  gap: 15px;
+  width: 100%;
+  height: calc(100% - 60px);
+  position: absolute;
+  top: 100px;
+  background-color: rgb(102, 102, 102);
+  padding: 15px;
+}
+
+.square {
+  background-color: rgb(71, 71, 71);
+  transition: 0.4s;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.square:hover {
+  background-color: rgba(236, 64, 38, 0.6);
+}
+
+@media (max-width:500px) {
+  .game {
+    /* position: absolute; */
+    /* width: 98%; */
+    height: 50vh;
+    top: 150px;
+  }
+
+  .squares {
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(3, calc((100% - 20px) / 3));
+    grid-template-rows: repeat(3, calc((100% - 20px) / 3));
+    top: 220px;
+  }
+
+  .title {
+    top: 120px;
+  }
+}
+
+@media (max-width:788px) {
+  .game {
+    width: 100%;
+    top: 20px;
+  }
+
+  .squares {
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(3, calc((100% - 20px) / 3));
+    grid-template-rows: repeat(3, calc((100% - 20px) / 3));
+  }
+}
+
+@media (min-width:1024px) {
+  .game {
+    width: 50%;
+    height: 85vh;
+  }
+}
